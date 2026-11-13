@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portal - Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>My Student Portal</h1>
+    <form id="regForm" novalidate>
+      <ul id="errors" class="errors"></ul>
+
+      <label for="fullName">Full name</label>
+      <input type="text" id="fullName" name="fullName" maxlength="25">
+      <span id="nameCounter" class="hint"></span>
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email">
+
+      <label for="phone">Phone (9 digits)</label>
+      <input type="text" id="phone" name="phone">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+
+      <label for="confirmPassword">Confirm password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword">
+
+      <label for="city">City</label>
+      <select id="city" name="city">
+        <option value="">-- choose --</option>
+        <option value="Tashkent">Tashkent</option>
+        <option value="Samarkand">Samarkand</option>
+        <option value="Bukhara">Bukhara</option>
+        <option value="Khiva">Khiva</option>
+        <option value="Namangan">Namangan</option>
+      </select>
+      <p id="cityLine" class="hint"></p>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+</body>
+</html>

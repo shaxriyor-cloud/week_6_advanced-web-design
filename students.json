@@ -1,0 +1,9 @@
+[
+  { "name": "Aziza Karimova", "marks": 88, "city": "Tashkent" },
+  { "name": "Ravi Sharma", "marks": 35, "city": "Samarkand" },
+  { "name": "Bekzod Aliev", "marks": 61, "city": "Bukhara" },
+  { "name": "Malika Rustamova", "marks": 79, "city": "Khiva" },
+  { "name": "Timur Nazarov", "marks": 47, "city": "Namangan" },
+  { "name": "Dilnoza Yusupova", "marks": 52, "city": "Tashkent" },
+  { "name": "Shaxriyor Shodmonov", "marks": 40, "city": "Tashkent" }
+]

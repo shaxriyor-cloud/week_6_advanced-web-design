@@ -1,0 +1,170 @@
+/* =========================
+   1. Global Styles
+========================= */
+
+:root {
+  --accent: seagreen;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* =========================
+ 2. Body and Main Layout
+========================= */
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f6f8f7;
+  color: #222;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* =========================
+ 3. Headings and Labels
+========================= */
+
+h1 {
+  color: var(--accent);
+}
+
+label {
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+
+/* =========================
+ 4. Form Elements
+========================= */
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.invalid {
+  border-color: red;
+}
+
+/* =========================
+ 5. Error Messages and Hints
+========================= */
+
+.errors {
+  color: #b00020;
+  padding-left: 1.2rem;
+}
+
+.hint {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* =========================
+ 6. Buttons
+========================= */
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* =========================
+ 7. Toolbar
+========================= */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.toolbar label {
+  margin-top: 1rem;
+}
+
+.toolbar select {
+  width: auto;
+}
+
+/* =========================
+ 8. Table Styles
+========================= */
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* =========================
+ 9. Grade Styles
+========================= */
+
+.grade-Fail {
+  color: #b00020;
+  font-weight: 700;
+}
+
+.grade-Pass {
+  color: #444;
+}
+
+.grade-Distinction {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* =========================
+ 10. Responsive Design
+========================= */
+
+@media (max-width: 480px) {
+  th,
+  td {
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+}
